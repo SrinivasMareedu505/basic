@@ -15,7 +15,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'Sample.java'
+                sh './Sample.java'
             }
         }
 
