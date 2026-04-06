@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        jdk 'jdk17' // Replace 'jdk17' with the Name configured in Manage Jenkins > Tools
+        jdk 'jdk11' // Replace 'jdk17' with the Name configured in Manage Jenkins > Tools
     }
     stages {
 
